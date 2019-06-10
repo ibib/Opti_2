@@ -1,0 +1,8 @@
+Run in Anaconda context:
+pyinstaller -D --clean main.spec
+
+Pyinstaller can be installed with:
+pip install git+https://github.com/pyinstaller/pyinstaller
+
+Pyinstaller Documentation:
+http://www.pyinstaller.org/
