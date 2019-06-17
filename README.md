@@ -18,7 +18,7 @@ It does not work if QT ist installed over Anaconda. Instead you can use the pip 
 
 ## Program Authors
 
-* **J.August**
+* **J. August**
 * **P.-P. Ley**
 
 ## License
@@ -28,5 +28,6 @@ This project is licensed under the GPL License - see the [LICENSE](LICENSE) file
 ## Special Acknowledgments
 
 * This tool was developed within the framework of the "[Wege in die Forschung II]( https://www.uni-hannover.de/de/forschung/wiss-nachwuchs/postdocs/bisher-gefoerderte-projekte/wif-ii-projekte-2017/wolf/)" funding programme for young researchers at Leibniz Universität Hannover.
+* [Institute of Product Development](https://www.ipeg.uni-hannover.de/institut.html?&L=1)
 * [PyZDDE](https://github.com/xzos/PyZDDE)
 
