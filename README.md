@@ -16,6 +16,12 @@ Execute the main.py.
 Install Pyinstaller in your enviroment and run the build.bat. When the build process is finished execute ./dist/Start.bat.
 It does not work if QT ist installed over Anaconda. Instead you can use the pip source.
 
+## Screenshots
+
+<img src="./img/User_Interface_Opti_2.jpg" alt="Main UI" width="800"/>
+
+<img src="./img/Settings_Opti.png" alt="Settings menu" width="300"/>
+
 ## Program Authors
 
 * **J. August**
@@ -30,4 +36,3 @@ This project is licensed under the GPL License - see the [LICENSE](LICENSE) file
 * This tool was developed within the framework of the "[Wege in die Forschung II]( https://www.uni-hannover.de/de/forschung/wiss-nachwuchs/postdocs/bisher-gefoerderte-projekte/wif-ii-projekte-2017/wolf/)" funding programme for young researchers at Leibniz Universität Hannover.
 * [Institute of Product Development](https://www.ipeg.uni-hannover.de/institut.html?&L=1)
 * [PyZDDE](https://github.com/xzos/PyZDDE)
-
