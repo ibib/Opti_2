@@ -17,6 +17,12 @@ Execute the main.py.
 Install Pyinstaller in your enviroment and run the build.bat. When the build process is finished execute ./dist/Start.bat.
 It does not work if QT ist installed over Anaconda. Instead you can use the pip source.
 
+## Screenshots
+
+<img src="./img/User_Interface_Opti_2.jpg" alt="Main UI" width="800"/>
+
+<img src="./img/Settings_Opti.png" alt="Settings menu" width="300"/>
+
 ## Program Authors
 
 * **J.August**
@@ -29,4 +35,3 @@ This project is licensed under the GPL License - see the [LICENSE](LICENSE) file
 ## Special Acknowledgments
 
 * [PyZDDE](https://github.com/xzos/PyZDDE)
-
