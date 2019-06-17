@@ -12,7 +12,7 @@ Insert the *.ZPL macro in the macro folder.
 
 Execute the main.py.
 
-## Built portable
+## Build portable
 
 Install Pyinstaller in your enviroment and run the build.bat. When the build process is finished execute ./dist/Start.bat.
 It does not work if QT ist installed over Anaconda. Instead you can use the pip source.
