@@ -1,0 +1,7 @@
+pandas
+git+git://github.com/indranilsinharoy/PyZDDE
+git+git://github.com/pyinstaller/pyinstaller
+PyQt5
+psutil
+pywin32
+numpy

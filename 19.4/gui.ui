@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1148</width>
+    <height>555</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Opti²</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>10</y>
+     <width>571</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Working Dir:</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="verticalGroupBox">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>20</y>
+     <width>260</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Zemax Functions</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="rightMargin">
+     <number>1</number>
+    </property>
+    <item>
+     <widget class="QPushButton" name="OpenZemaxButton">
+      <property name="text">
+       <string>Open Zemax</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="SaveModel">
+      <property name="text">
+       <string>Save Current Model</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="LoadSC">
+      <property name="text">
+       <string>Load SC-Model</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="save_n_transfer">
+      <property name="text">
+       <string>Save and convert to NSC-Model</string>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="LoadNSC">
+      <property name="text">
+       <string>Load Live NSC-Model</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ConvertCad">
+      <property name="text">
+       <string>Save and convert to CAD-Model</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="LoadSystemFrom">
+      <property name="text">
+       <string>Restore Saved Model</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="trace">
+      <property name="text">
+       <string>Trace</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="save_detect">
+      <property name="text">
+       <string>Save Detector file</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="delete_2">
+      <property name="text">
+       <string>Delete Selected Model</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>60</y>
+     <width>651</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="sizeIncrement">
+    <size>
+     <width>0</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="isWrapping" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="resizeMode">
+    <enum>QListView::Adjust</enum>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+   <property name="sortingEnabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="verticalGroupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>171</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>General Settings</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QPushButton" name="SettingsMenu">
+      <property name="text">
+       <string>Open Settings</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="createSubfolders">
+      <property name="text">
+       <string>Create Subfolders</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="EditComment">
+      <property name="text">
+       <string>Edit comment</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="ListDir">
+      <property name="text">
+       <string>Refresh</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="Help">
+      <property name="text">
+       <string>Help</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>35</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Version</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>35</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Date</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>35</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Comment</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>340</y>
+     <width>171</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Optimization Settings</string>
+   </property>
+   <widget class="QDoubleSpinBox" name="SpinBox_Weight">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>30</y>
+      <width>62</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="decimals">
+     <number>3</number>
+    </property>
+    <property name="maximum">
+     <double>100000000000000009190283508143378238084034459715684532224.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QDoubleSpinBox" name="SpinBox_Target">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>70</y>
+      <width>62</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="decimals">
+     <number>3</number>
+    </property>
+    <property name="maximum">
+     <double>1000000000000000078291540404596243842305360299886116864.000000000000000</double>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_Target">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>70</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Target:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Label_Value">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Weight</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="power_last_run">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>260</y>
+     <width>161</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Power last run: </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Merit_auto">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>280</y>
+     <width>141</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Optimization</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>930</x>
+     <y>470</y>
+     <width>181</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>IPeG_Logo_kurz.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
